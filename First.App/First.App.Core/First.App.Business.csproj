@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Reflection\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\First.App.DataAccess.EntityFramework.Repository\First.App.DataAccess.EntityFramework.Repository.csproj" />
+    <ProjectReference Include="..\First.App.Domain\First.App.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
